@@ -1,0 +1,42 @@
+fun main() {
+    // Ödev 1: Değişkenler ve println()
+    val sehir = "İstanbul"
+    val ulke = "Türkiye"
+    val telefon = "+90 555 123 4567"
+    val postaKodu = "34000"
+    val email = "ornek@eposta.com"
+    val meslek = "Mühendis"
+    val stokMiktari = 100
+    val musteriAdi = "Ahmet Yılmaz"
+    val bakiye = 1500.75
+    val dogumGunu = "01.01.2000"
+    val maas = 25000
+    val medeniDurum = "Bekar"
+    val urunYorum = "Harika ürün!"
+
+    val odemeTarihi = "2025-05-01"
+    val odeme = 500.0
+    val siparisAdeti = 3
+    val arabaModeli = "Toyota Corolla"
+    val kitapAdi = "Kotlin Programlama"
+    val yayinlamaTarihi = "2022"
+    val indirimMiktari = 50
+    val odaSayisi = 2
+    val enlem = 41.0082
+    val boylam = 28.9784
+    val urunAdi = "Laptop"
+    val yemekFiyati = 120.0
+
+    val marka = "Apple"
+    val muzikAdi = "Imagine"
+    val videoSuresi = "5:30"
+    val urunPuani = 4.5
+    val resimAdi = "manzara.jpg"
+    val dosyaFormati = "jpg"
+    val renk = "Mavi"
+    val renkKodu = "#0000FF"
+    val telefonModeli = "iPhone 14"
+    val ekranBoyutu = "6.1 inch"
+    val agirlik = "174 gram"
+
+    val ul
