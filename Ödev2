@@ -39,4 +39,119 @@ fun main() {
     val ekranBoyutu = "6.1 inch"
     val agirlik = "174 gram"
 
-    val ul
+    val ulusalGun = "29 Ekim"
+    val tatilGunu = "1 Mayıs"
+    val rezervasyonTarihi = "2025-06-10"
+    val sokakAdi = "Bağdat Caddesi"
+    val otobusHatti = "34AS"
+    val kalanDakika = 15
+    val takipKodu = "TR123456789"
+    val kuponSuresi = "30 gün"
+    val kuponKodu = "INDIRIM30"
+    val faturaAdresi = "İstanbul, Türkiye"
+
+    println(sehir)
+    println(ulke)
+    println(telefon)
+    println(postaKodu)
+    println(email)
+    println(meslek)
+    println(stokMiktari)
+    println(musteriAdi)
+    println(bakiye)
+    println(dogumGunu)
+    println(maas)
+    println(medeniDurum)
+    println(urunYorum)
+    println(odemeTarihi)
+    println(odeme)
+    println(siparisAdeti)
+    println(arabaModeli)
+    println(kitapAdi)
+    println(yayinlamaTarihi)
+    println(indirimMiktari)
+    println(odaSayisi)
+    println(enlem)
+    println(boylam)
+    println(urunAdi)
+    println(yemekFiyati)
+    println(marka)
+    println(muzikAdi)
+    println(videoSuresi)
+    println(urunPuani)
+    println(resimAdi)
+    println(dosyaFormati)
+    println(renk)
+    println(renkKodu)
+    println(telefonModeli)
+    println(ekranBoyutu)
+    println(agirlik)
+    println(ulusalGun)
+    println(tatilGunu)
+    println(rezervasyonTarihi)
+    println(sokakAdi)
+    println(otobusHatti)
+    println(kalanDakika)
+    println(takipKodu)
+    println(kuponSuresi)
+    println(kuponKodu)
+    println(faturaAdresi)
+
+    // Ödev 2: Fonksiyonlar
+
+    println(convertToFahrenheit(25.0))   // C->F dönüşümü
+    println(calculateRectanglePerimeter(5.0, 10.0)) // Dikdörtgen çevresi
+    println(factorial(5)) // 5! = 120
+    println(countLetterA("Ankara")) // "Ankara" -> 2
+
+    println(calculateInteriorAngles(5)) // Beşgenin iç açıları toplamı
+    println(calculateSalary(25)) // 25 gün çalıştı
+    println(calculateInternetFee(60)) // 60 GB kullanım
+}
+
+// Ödev 2 Fonksiyonları:
+
+fun convertToFahrenheit(celsius: Double): Double {
+    return celsius * 1.8 + 32
+}
+
+fun calculateRectanglePerimeter(length: Double, width: Double): Double {
+    return 2 * (length + width)
+}
+
+fun factorial(number: Int): Int {
+    var result = 1
+    for (i in 1..number) {
+        result *= i
+    }
+    return result
+}
+
+fun countLetterA(word: String): Int {
+    return word.lowercase().count { it == 'a' }
+}
+
+fun calculateInteriorAngles(sideCount: Int): Int {
+    return (sideCount - 2) * 180
+}
+
+fun calculateSalary(dayCount: Int): Int {
+    val normalHourlyWage = 10
+    val overtimeHourlyWage = 20
+    val workingHours = dayCount * 8
+
+    return if (workingHours <= 160) {
+        workingHours * normalHourlyWage
+    } else {
+        (160 * normalHourlyWage) + ((workingHours - 160) * overtimeHourlyWage)
+    }
+}
+
+fun calculateInternetFee(dataUsage: Int): Int {
+    return if (dataUsage <= 50) {
+        100
+    } else {
+        100 + (dataUsage - 50) * 4
+    }
+}
+
