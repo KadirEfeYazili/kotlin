@@ -1,0 +1,99 @@
+fun main() {
+    val sehir = "İstanbul"
+    val ulke = "Türkiye"
+    val telefon = "+90 555 555 55 55"
+    val postaKodu = "34000"
+    val email = "ornek@example.com"
+    val meslek = "Mühendis"
+    val stokMiktari = 120
+    val musteriAdi = "Ahmet Yılmaz"
+    val bakiye = 1500.75
+    val dogumGunu = "1995-05-21"
+    val maas = 25000
+    val medeniDurum = "Bekar"
+    val urunYorum = "Ürün harika!"
+    
+    val odemeTarihi = "2025-04-27"
+    val odeme = 300.50
+    val siparisAdeti = 3
+    val arabaModeli = "Tesla Model 3"
+    val kitapAdi = "Kotlin Programlama"
+    val yayinlamaTarihi = "2023-10-10"
+    val indirimMiktari = 15
+    val odaSayisi = 4
+    val enlem = 41.0082
+    val boylam = 28.9784
+    val urunAdi = "Bluetooth Kulaklık"
+    val yemekFiyati = 120.0
+    
+    val marka = "Apple"
+    val muzikAdi = "Bohemian Rhapsody"
+    val videoSuresi = "02:30"
+    val urunPuani = 4.8
+    val resimAdi = "manzara.png"
+    val dosyaFormati = "PNG"
+    val renk = "Mavi"
+    val renkKodu = "#0000FF"
+    val telefonModeli = "iPhone 14"
+    val ekranBoyutu = 6.1
+    val agirlik = 174.0
+    
+    val ulusalGun = "23 Nisan"
+    val tatilGunu = "1 Mayıs"
+    val rezervasyonTarihi = "2025-06-15"
+    val sokakAdi = "Bağdat Caddesi"
+    val otobusHatti = "34BZ"
+    val kalanDakika = 12
+    val takipKodu = "TR1234567890"
+    val kuponSuresi = "30 gün"
+    val kuponKodu = "INDIRIM30"
+    val faturaAdresi = "Beşiktaş, İstanbul"
+
+    // println() ile yazdırıyoruz:
+    println(sehir)
+    println(ulke)
+    println(telefon)
+    println(postaKodu)
+    println(email)
+    println(meslek)
+    println(stokMiktari)
+    println(musteriAdi)
+    println(bakiye)
+    println(dogumGunu)
+    println(maas)
+    println(medeniDurum)
+    println(urunYorum)
+    println(odemeTarihi)
+    println(odeme)
+    println(siparisAdeti)
+    println(arabaModeli)
+    println(kitapAdi)
+    println(yayinlamaTarihi)
+    println(indirimMiktari)
+    println(odaSayisi)
+    println(enlem)
+    println(boylam)
+    println(urunAdi)
+    println(yemekFiyati)
+    println(marka)
+    println(muzikAdi)
+    println(videoSuresi)
+    println(urunPuani)
+    println(resimAdi)
+    println(dosyaFormati)
+    println(renk)
+    println(renkKodu)
+    println(telefonModeli)
+    println(ekranBoyutu)
+    println(agirlik)
+    println(ulusalGun)
+    println(tatilGunu)
+    println(rezervasyonTarihi)
+    println(sokakAdi)
+    println(otobusHatti)
+    println(kalanDakika)
+    println(takipKodu)
+    println(kuponSuresi)
+    println(kuponKodu)
+    println(faturaAdresi)
+}
